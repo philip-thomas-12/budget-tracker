@@ -49,6 +49,12 @@ $this_month_expense_amount = '0' + mysqli_fetch_assoc($this_month_expense)['SUM(
 $this_year_expense_amount = '0' + mysqli_fetch_assoc($this_year_expense)['SUM(expense)'];
 $total_expense_amount = '0' + mysqli_fetch_assoc($total_expense)['SUM(expense)'];
 
+$total_salary_query = mysqli_query($con, "SELECT SUM(amount) FROM income WHERE user_id = '$userid'");
+$total_salary = '0' + mysqli_fetch_assoc($total_salary_query)['SUM(amount)'];
+
+$remaining_salary = $total_salary - $total_expense_amount;
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -210,6 +216,23 @@ $total_expense_amount = '0' + mysqli_fetch_assoc($total_expense)['SUM(expense)']
         </div>
       </div>
     </div>
+    <div class="col-md-3">
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Total Salary</h5>
+      <p class="card-text">₹<?php echo $total_salary; ?></p>
+    </div>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Remaining Salary</h5>
+      <p class="card-text">₹<?php echo $remaining_salary; ?></p>
+    </div>
+  </div>
+</div>
+
   </div>
 </div>
 
