@@ -41,6 +41,8 @@ if (isset($_POST['but_upload'])) {
 }
 
 ?>
+
+    
 <!DOCTYPE html>
 <html lang="en">
 
