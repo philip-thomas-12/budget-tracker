@@ -5,7 +5,6 @@ $exp_fetched = mysqli_query($con, "SELECT * FROM expenses WHERE user_id = '$user
 if (isset($_POST['save'])) {
     $fname = $_POST['first_name'];
     $lname = $_POST['last_name'];
-
     $sql = "UPDATE users SET firstname = '$fname', lastname='$lname' WHERE user_id='$userid'";
     if (mysqli_query($con, $sql)) {
         echo "Records were updated successfully.";
