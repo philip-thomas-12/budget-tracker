@@ -54,6 +54,7 @@ INSERT INTO `expenses` (`expense_id`, `user_id`, `expense`, `expensedate`, `expe
 (120, '9', 1000, '2023-10-04', 'Entertainment'),
 (121, '9', 500, '2023-10-19', 'Clothings'),
 (122, '9', 426, '2023-10-16', 'Household Items');
+(123, '9', 426, '2023-10-16', 'Household Items');
 
 -- --------------------------------------------------------
 
