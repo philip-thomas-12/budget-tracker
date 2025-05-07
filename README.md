@@ -3,12 +3,7 @@
 A simple and responsive **Budget Tracker Web App** built with HTML, CSS, and JavaScript. It allows users to add income and expenses, calculate the balance, and track spending in real-time.
 
 
-## 🔗 Live Demo
 
-Visit the live site here: [https://budget-tracker.vercel.app](https://budget-tracker.vercel.app)  
-> *(Update this once deployed)*
-
----
 
 ## 🚀 Features
 
