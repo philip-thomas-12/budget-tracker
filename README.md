@@ -28,3 +28,25 @@ A simple and effective PHP-based personal expense tracker that allows users to m
    ```bash
    git clone https://github.com/philip-thomas-12/budget-tracker.git
    cd budget-tracker
+
+
+## 📁 Project Structure
+
+/
+├── index.php # Home/Login page
+├── dashboard.php # Main dashboard
+├── add_income.php # Add income entries
+├── add_expense.php # Add expense entries
+├── incomereport.php # View income reports
+├── expensereport.php # View expense reports
+├── manage_income.php # Edit/delete income
+├── manage_expense.php # Edit/delete expenses
+├── change_password.php # Change user password
+├── logout.php # Logout function
+├── config.php # DB configuration
+├── PersonalExpenseTracker.sql # DB Schema
+├── css/ # Styles
+├── js/ # Optional JS scripts
+├── uploads/ # File uploads (if used)
+├── loginbackground.jpg # Login background
+└── README.md
