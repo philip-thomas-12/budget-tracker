@@ -19,6 +19,8 @@ A simple and effective PHP-based personal expense tracker that allows users to m
 ## 🛠️ Tech Stack
 
 - **PHP**
+- **HTML**
+- **MYSQL**
 - **CSS**
 - **JavaScript**
 
