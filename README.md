@@ -1,7 +1,6 @@
 # 💰 Budget Tracker
 
-A simple and responsive **Budget Tracker Web App** built with HTML, CSS, and JavaScript. It allows users to add income and expenses, calculate the balance, and track spending in real-time.
-
+A simple and effective PHP-based personal expense tracker that allows users to manage their income and expenses securely.
 
 
 
