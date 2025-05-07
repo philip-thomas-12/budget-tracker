@@ -4,13 +4,15 @@ A simple and effective PHP-based personal expense tracker that allows users to m
 
 
 
-## 🚀 Features
+## 🛠️ Features
 
-- Add income and expense entries
-- Automatically calculate total balance
-- Delete transactions
-- Responsive layout for mobile and desktop
-- LocalStorage support to retain data between sessions
+- 🔐 Secure user login/logout system
+- ➕ Add, view, and manage income
+- ➕ Add, view, and manage expenses
+- 📊 Generate reports for better budgeting
+- 🧾 SQL schema included for quick setup
+- 🎨 Minimal UI using PHP, HTML, and CSS
+
 
 ---
 
