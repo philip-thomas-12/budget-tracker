@@ -11,7 +11,7 @@ A simple and effective PHP-based personal expense tracker that allows users to m
 - ➕ Add, view, and manage expenses
 - 📊 Generate reports for better budgeting
 - 🧾 SQL schema included for quick setup
-- 🎨 Minimal UI using PHP, HTML, and CSS
+- 🎨 Minimal UI using PHP, JAVASCRIPT, and CSS
 
 
 ---
