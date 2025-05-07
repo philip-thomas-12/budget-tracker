@@ -33,6 +33,27 @@ A simple and effective PHP-based personal expense tracker that allows users to m
    git clone https://github.com/philip-thomas-12/budget-tracker.git
    cd budget-tracker
 
+2. **Import the database:**
+   Open phpMyAdmin or any MySQL client
+   Import PersonalExpenseTracker.sql
+
+3.  Configure DB connection:
+    Update config.php with your database credentials:
+      $host = 'localhost';
+      $user = 'root';
+      $pass = '';
+      $dbname = 'your_database_name'; 
+4.  Run Locally
+
+6.  Or Deploy Online:
+    Use hosting platforms like Render, 000webhost, etc.
+
+7.  📜 License
+
+    This project is licensed under the MIT License.    
+      
+   
+
 
 ## 📁 Project Structure
 
