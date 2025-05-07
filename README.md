@@ -17,7 +17,6 @@ A simple and responsive **Budget Tracker Web App** built with HTML, CSS, and Jav
 
 ## 🛠️ Tech Stack
 
-- **HTML**
 - **PHP**
 - **CSS**
 - **JavaScript**
