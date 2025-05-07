@@ -2,7 +2,6 @@
 
 A simple and responsive **Budget Tracker Web App** built with HTML, CSS, and JavaScript. It allows users to add income and expenses, calculate the balance, and track spending in real-time.
 
-![screenshot](screenshot.png) <!-- Optional: Add a screenshot to your repo -->
 
 ## 🔗 Live Demo
 
