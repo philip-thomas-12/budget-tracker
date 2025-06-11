@@ -89,7 +89,7 @@ if (isset($_GET['delete'])) {
     <title>Expense Manager - Dashboard</title>
     
 
-    <!-- Bootstrap core CSS -->
+     <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
