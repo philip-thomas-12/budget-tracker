@@ -16,6 +16,7 @@ if (isset($_POST['add'])) {
     header('location: add_income.php');
 }
 
+
 if (isset($_POST['update'])) {
     $id = $_GET['edit'];
     $incomeamount = $_POST['incomeamount'];
