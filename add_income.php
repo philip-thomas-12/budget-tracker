@@ -17,6 +17,7 @@ if (isset($_POST['add'])) {
 }
 
 
+
 if (isset($_POST['update'])) {
     $id = $_GET['edit'];
     $incomeamount = $_POST['incomeamount'];
