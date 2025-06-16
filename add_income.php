@@ -29,6 +29,7 @@ if (isset($_POST['update'])) {
     header('location: manage_income.php');
 }
 
+
 if (isset($_POST['delete'])) {
     $id = $_GET['delete'];
     $sql = "DELETE FROM income WHERE user_id='$userid' AND income_id='$id'";
