@@ -7,6 +7,7 @@ $expenseamount = "";
 $expensedate = date("Y-m-d");
 $expensecategory = "";
 
+
 if (isset($_POST['add'])) {
     $expenseamount = $_POST['expenseamount'];
     $expensedate = $_POST['expensedate'];
