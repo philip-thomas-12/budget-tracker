@@ -6,8 +6,10 @@ $incomeamount = "";
 $incomedate = date("Y-m-d");
 $incomecategory = "";
 
+
 if (isset($_POST['add'])) {
-    $incomeamount = $_POST['incomeamount'];
+    $incomeamount = 
+    $_POST['incomeamount'];
     $incomedate = $_POST['incomedate'];
     $incomecategory = $_POST['incomecategory'];
 
