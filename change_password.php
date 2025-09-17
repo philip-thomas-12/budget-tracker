@@ -1,3 +1,4 @@
+
 <?php
 include("session.php");
 $exp_fetched = mysqli_query($con, "SELECT * FROM expenses WHERE user_id = '$userid'");
