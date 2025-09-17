@@ -1,3 +1,4 @@
+
 <?php
 $con = mysqli_connect("your_host_name","your_username","your_password","your_database_namee");
 if (mysqli_connect_errno())
